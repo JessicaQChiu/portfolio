@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+
+    <!-- Page info -->
+    <title>Jessica Chiu</title>
+    <meta name="description" content="The portfolio page of Jessica Chiu made using Bootstrap 4.">
+</head>
+
+<body>
+
+    <header>
+        <!--Landing screen setup-->
+        <div id="landingScreen">
+
+            <!--Navigation bar-->
+            <nav class="navbar navbar-expand-lg fixed-top py-3 navbar-dark">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse justify-content-md-center" id="mainNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link text-uppercase" href="index.html">Home<span class="sr-only">(current
+                                        section)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase" href="#">About Me</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link text-uppercase dropdown-toggle" href="#" data-toggle="dropdown" href="#">Projects
+                                    and Skills<span class="caret"></span></a>
+                                <div class="dropdown-menu">
+                                    <a class="dropdown-item" href="#">UX/UI Design</a>
+                                    <a class="dropdown-item" href="#">Front-end Development</a>
+                                    <a class="dropdown-item" href="#">Cloud Technologies</a>
+                                    <a class="dropdown-item" href="#">Business Analysis</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Landing screen content -->
+            <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-md-12">
+
+                        <!-- Heading -->
+                        <h1 class="pt-5 mb-3">Hello, I'm Jessica Chiu</h1>
+
+                        <!-- Divider -->
+                        <hr class="hrLanding">
+
+                        <!-- Description -->
+                        <h4 class="my-4"> A Wellington based information systems graduate looking for a
+                            chance to grow.</h4>
+
+                        <!-- Scroll down -->
+                        <button type="button" class="btn">
+                            <span class="fa fa-chevron-circle-down fa-2x"></span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Main content-->
+    <main>
+        
+        <!-- About Me -->
+        <div class="container-lg">
+    
+            <!-- About Me header -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header">About Me
+                    </h2>
+                </div>
+            </div>
+    
+            <!-- About Me info -->
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center justify-content-center">
+                    <img class="img-responsive img-circle" src="images/letterJ.jpg" alt="Headshot of Jessica Chiu">
+                </div>
+                <div class="col-md-8">
+                    <p>My first experiences with technology included gaming on the boxy PC and when I learned that I could get play a part with the things that gave me so much joy, you can bet that I customised my Neopets profile with a fairy wand cursor. Curiousity played a large part in my interest in tech and changing that single cursor design lead me down a path of developing interfaces for friends to use, programming a robotic arm, and helping spark that same curiousity in others through teaching. 
+                        <br><br>
+                        I want to move forward by persisting in developing my abilities, diving into the knowledge of others, and providing my intentions of accessibility through my work. People have always been at the center of my work and I would love the opportunity to be a part of a team that helps create a positive impact on how information is communicated to everyone. Whether this is through user experience design, IT infrastructure, or making code accessible - I want the chance to be a part of this.
+                    </p> 
+                    
+                    <!-- Testing download resume buttons -->
+
+                    <a class="btn btn-secondary" role="button" href="resume.pdf" download="Jessica Chiu Resume"><i class="fa fa-download"></i> Download Resume</a>
+                    <button type="submit" class="btn btn-secondary" data-loading-text="Downloading resume" onclick="window.open('resume.pdf')"><i class="fa fa-download"></i> Resume</button>
+                        
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Projects and Work section-->
+        <div class="container-lg">
+    
+            <!-- Projects and Work header -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header">Projects and Work
+                    </h2>
+                </div>
+            </div>
+    
+            <!-- Projects and Work row 1-->
+            <div class="row">
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="images/essayPlannerHome.jpg" alt="Essay planner application homepage">
+                    </a>
+                    <h3>
+                        <a href="#">Essay Planner</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                        pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="images/servers.jpg" alt="">
+                    </a>
+                    <h3>
+                        <a href="#">Track</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                        pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="images/airlineCompare.jpg" alt="">
+                    </a>
+                    <h3>
+                        <a href="#">NZ Airline Text Mining</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                        pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+
+            <!-- Projects and Work row 2 -->
+            <div class="row">
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="images/UX.jpg" alt="user interview">
+                    </a>
+                    <h3>
+                        <a href="#">User Experience</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                        pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="images/frontEndDev.jpg" alt="wireframes for a website">
+                    </a>
+                    <h3>
+                        <a href="#">Front-end Development</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                        pellentesque urna varius vitae.</p>
+                </div>
+                <div class="col-md-4 portfolio-item">
+                    <a href="#">
+                        <img class="img-responsive" src="images/cloudTechnology.jpg" alt="general cloud in the sky">
+                    </a>
+                    <h3>
+                        <a href="#">Cloud Technology</a>
+                    </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
+                        pellentesque urna varius vitae.</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-text text-center py-1"> Thank you for coming this far and giving me a chance to show myself by taking a look at my profile. I hope you have a lovely day.
+        </div>
+        <div class="footer-text text-center py-3">Created by <a href="https://www.linkedin.com/in/jessicaqchiu/">Jessica Chiu </a>// 2020
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+</html>
