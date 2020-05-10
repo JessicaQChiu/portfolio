@@ -27,16 +27,34 @@ h2{
     line-height: 1em;
     color: rgb(0, 0, 0);
 }
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: rgb(0, 0, 0);
+}
 h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+h5{
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
-    line-height: 1.2em;
+    line-height: 1.5em;
     color: rgb(255, 255, 255);
 }
 p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     padding-bottom: 1em;
+}
+p.subtitle{
+    font-style: italic;
 }
 
 /*--- Landing screen ---*/
