@@ -9,4 +9,3 @@ $(document).ready(function(){
     //Make the <header> element stretch across the entire screen*/
     $('.header').height($(window).height());
   })
-
