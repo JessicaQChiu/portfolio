@@ -16,12 +16,13 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <!-- Page info -->
-    <title>Jessica Chiu</title>
+    <title>Jessica Chiu's Portfolio</title>
     <meta name="description" content="The portfolio page of Jessica Chiu made using Bootstrap 4.">
 </head>
 
 <body>
 
+    <!--Landing screen and navigation -->
     <header>
         <!--Landing screen setup-->
         <div id="landingScreen">
@@ -37,7 +38,7 @@
                         <ul class="navbar-nav">
                             <li class="nav-item active">
                                 <a class="nav-link text-uppercase" href="index.html">Home<span class="sr-only">(current
-                                        section)</span></a>
+                                        page)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-uppercase" href="#">About Me</a>
@@ -69,8 +70,8 @@
                         <hr class="hrLanding">
 
                         <!-- Description -->
-                        <h4 class="my-4"> A Wellington based information systems graduate looking for a
-                            chance to grow.</h4>
+                        <h5 class="my-4"> A Wellington based information systems graduate looking for a
+                            chance to grow.</h5>
 
                         <!-- Scroll down -->
                         <button type="button" class="btn">
@@ -86,7 +87,7 @@
     <!--Main content-->
     <main>
         
-        <!-- About Me -->
+        <!-- About Me section-->
         <div class="container-lg">
     
             <!-- About Me header -->
@@ -103,33 +104,154 @@
                     <img class="img-responsive img-circle" src="images/letterJ.jpg" alt="Headshot of Jessica Chiu">
                 </div>
                 <div class="col-md-8">
-                    <p>My first experiences with technology included gaming on the boxy PC and when I learned that I could get play a part with the things that gave me so much joy, you can bet that I customised my Neopets profile with a fairy wand cursor. Curiousity played a large part in my interest in tech and changing that single cursor design lead me down a path of developing interfaces for friends to use, programming a robotic arm, and helping spark that same curiousity in others through teaching. 
+                    <p>My first experiences with technology included gaming on the boxy PC and when I learned that I could play a part in the things that gave me so much joy, you can bet that I customised my Neopets profile with a fairy wand cursor. Curiousity played a large part in my interest in tech and changing that single cursor design lead me down a path of developing interfaces for friends to use, programming a robotic arm, and volunteering to help spark that same curiousity in others.
                         <br><br>
-                        I want to move forward by persisting in developing my abilities, diving into the knowledge of others, and providing my intentions of accessibility through my work. People have always been at the center of my work and I would love the opportunity to be a part of a team that helps create a positive impact on how information is communicated to everyone. Whether this is through user experience design, IT infrastructure, or making code accessible - I want the chance to be a part of this.
+                        I want to move forward by persisting in developing my abilities, diving into the knowledge of others, and providing my perspective of inclusion. People have always been at the center of my work and I would love the opportunity to be a part of a team that helps create a positive impact on how information is communicated to everyone. Whether this is through user experience design, IT infrastructure, or making code accessible - I want the chance to be a part of this.
                     </p> 
                     
                     <!-- Testing download resume buttons -->
-
-                    <a class="btn btn-secondary" role="button" href="resume.pdf" download="Jessica Chiu Resume"><i class="fa fa-download"></i> Download Resume</a>
-                    <button type="submit" class="btn btn-secondary" data-loading-text="Downloading resume" onclick="window.open('resume.pdf')"><i class="fa fa-download"></i> Resume</button>
+                    <a class="btn btn-secondary" role="button" href="resume.pdf" download="Jessica Chiu Resume"><i class="fa fa-download" aria-hidden="true"></i> Download Resume</a>
+                    <button type="submit" class="btn btn-secondary" data-loading-text="Downloading resume" onclick="window.open('resume.pdf')"><i class="fa fa-download"></i> Download Resume</button>
                         
+                    <button type="submit" class="btn btn-secondary" onclick="window.open('resume.pdf')"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Open Resume</button>
                 </div>
             </div>
         </div>
         <hr>
 
-        <!-- Projects and Work section-->
+        <!-- Education and Experience section -->
         <div class="container-lg">
     
-            <!-- Projects and Work header -->
+            <!-- Education and Experience header -->
             <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="page-header">Projects and Work
+                <div class="col-sm-12">
+                    <h2 class="page-header">Education and Experience
                     </h2>
                 </div>
             </div>
     
-            <!-- Projects and Work row 1-->
+            <!-- Education info -->
+            <div class="row">
+                <div class="col-md-4 d-flex text-uppercase">
+                    <h3><span class="underline">Education</span></h3>
+                </div>
+                <div class="col-md-8">
+                    <h4>Victoria University of Wellington // Te Herenga Waka</h4>
+                    <p class="subtitle">Bachelor of Commerce majoring in Information Systems with a specialisation in IT solutions and a minor in Management | 2016 - 2019</p>
+                    <p>Gaining knowledge and experience with x - y.</p> 
+                    <h4>Yoobee School of Design</h4>
+                    <p class="subtitle">Short Courses in Web Design, Graphic Design, Game Design | 2014 - 2015</p>
+                    <h4>Wellington Girls' College // Te Herenga Waka</h4>
+                    <p class="subtitle">NCEA Level 1, 2, 3| 2010 - 2015</p>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Work Experience info -->
+            <div class="row">
+                <div class="col-md-4 d-flex text-uppercase">
+                    <h3><span class="underline">Work</span></h3>
+                </div>
+                <div class="col-md-8">
+                    <h4>Trade Me</h4>
+                    <p class="subtitle">Customer Support Representative | 2018 - Present</p>
+                    <p>Site Functionality and Trade Support Team</p>
+                </div>
+            </div>
+            <hr>
+
+            <!-- Personal Development info -->
+            <div class="row">
+                <div class="col-md-4 d-flex text-uppercase">
+                    <h3><span class="underline">Personal Development</span></h3>
+                </div>
+                <div class="col-md-8">
+                    <h4>Google Online Courses</h4>
+                    <p class="subtitle">Completed Courses | 2018</p>
+                    <p>Technical Support Fundamentals<br>
+                    The Bits and Bytes of Computer Networking<br>
+                    System Administration and IT Infrastructure Services</p>
+                    <p class="subtitle">Ongoing Courses | 2020</p>
+                    <p>Google Cloud Platform Fundamentals - Core Infrastructure</p>
+                    <h4>A Cloud Guru in partnership with Women Who Code</h4>
+                    <p class="subtitle">AWS certification scholarship | 2018</p>
+                </div>
+            </div>
+            <hr>
+
+             <!-- Volunteering info -->
+             <div class="row">
+                <div class="col-md-4 d-flex text-uppercase">
+                    <h3><span class="underline">Volunteering</span></h3>
+                </div>
+                <div class="col-md-8">
+                    <h4>Code Club Aotearoa</h4>
+                    <p class="subtitle">General Session Support | 2018 - 2019</p>
+                    <h4>Victoria University of Wellington</h4>
+                    <p class="subtitle">Disability Services - Notetaker | 2018<br>
+                    Victoria University of Wellington Student Association (VUWSA) | 2017 - 2018<br>
+                    Senior Engineering Outreach Program | 2017</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Core Skills section -->
+        <div class="container-lg">
+
+            <!-- Core Skills header -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header">Core Skills
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Core Skills info -->
+            <div class="container-fluid text-center">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <i class="fa fa-question-circle-o fa-3x" aria-hidden="true"></i>
+                        <h3>Problem solving</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                            culpa qui officia deserunt.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <i class="fa fa-comments-o fa-3x" aria-hidden="true"></i>
+                        <h3>Communication</h3>
+                        <p>In my customer support role, I speak to a variety of people daily to help them through technical and
+                            trade issues. Code Club volunteering has lead me to help young students learn about development for
+                            their projects. These experiences have developed my ability in troubleshooting issues and finding
+                            ways to communicate them in a way the user can understand.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <i class="fa fa-heart-o fa-3x" aria-hidden="true"></i>
+                        <h3>Teamwork</h3>
+                        <p>Throughout university, I have been in group projects which have taught me the value of developing a
+                            strong team dynamic. I believe in cultivating an environment where everyone is comfortable with
+                            sharing their ideas and asking questions because I understand how fear of judgement or failure can
+                            hide the best work. I am experienced with Agile methodology and project management.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- Technical Skills  and Projects section -->
+        <div class="container-lg">
+    
+            <!-- Technical Skills and Projects header -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="page-header">Technical Skills and Projects
+                    </h2>
+                </div>
+            </div>
+    
+            <!-- Technical Skills and Projects row 1-->
             <div class="row">
                 <div class="col-md-4 portfolio-item">
                     <a href="#">
@@ -163,7 +285,7 @@
                 </div>
             </div>
 
-            <!-- Projects and Work row 2 -->
+            <!-- Technical Skills and Projects row 2 -->
             <div class="row">
                 <div class="col-md-4 portfolio-item">
                     <a href="#">
@@ -172,8 +294,7 @@
                     <h3>
                         <a href="#">User Experience</a>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
-                        pellentesque urna varius vitae.</p>
+                    <p>Wireframes/Storyboards. Prototypes (Justinmind, Adobe XD). Lead user testing sessions.</p>
                 </div>
                 <div class="col-md-4 portfolio-item">
                     <a href="#">
@@ -182,18 +303,16 @@
                     <h3>
                         <a href="#">Front-end Development</a>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
-                        pellentesque urna varius vitae.</p>
+                    <p>Agile methodology. HTML / CSS / JS / Bootstrap / Angular. Essay Mate (client based project),Track (application development course).</p>
                 </div>
                 <div class="col-md-4 portfolio-item">
                     <a href="#">
                         <img class="img-responsive" src="images/cloudTechnology.jpg" alt="general cloud in the sky">
                     </a>
                     <h3>
-                        <a href="#">Cloud Technology</a>
+                        <a href="#">Cloud Technology/Data Analysis</a>
                     </h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida
-                        pellentesque urna varius vitae.</p>
+                    <p>Basic knowledge. Can understand and use simple SQL queries and statements. Data visualisation, eg. text mining with R, graphs with Python.</p>
                 </div>
             </div>
         </div>
@@ -203,9 +322,24 @@
 
     <!-- Footer -->
     <footer>
-        <div class="footer-text text-center py-1"> Thank you for coming this far and giving me a chance to show myself by taking a look at my profile. I hope you have a lovely day.
+        <div class="footer-text text-center py-1"> Thank you for coming this far and giving me a chance to show myself by taking a look at my profile. I hope you have a lovely day!</div>
+        <div class="container-md">
+        <div class="row">
+            <div class="col-sm-4 d-flex align-items-center justify-content-center">
+                <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                <a href="tel:0226258411">022 625 8411</a>
+            </div>
+            <div class="col-sm-4 d-flex align-items-center justify-content-center">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <a href="mailto:jessica.q.chiu@gmail.com">jessica.q.chiu@gmail.com</a>
+            </div>
+            <div class="col-sm-4 d-flex justify-content-center">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <a href="https://github.com/JessicaQChiu/">JessicaQChiu</a>
+            </div>
         </div>
-        <div class="footer-text text-center py-3">Created by <a href="https://www.linkedin.com/in/jessicaqchiu/">Jessica Chiu </a>// 2020
+    </div>
+        <div class="footer-text text-center py-3">Created by <a href="https://www.linkedin.com/in/jessicaqchiu/">Jessica Chiu</a> // 2020. Built using <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap 4</a> and <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</a> images.
         </div>
     </footer>
 

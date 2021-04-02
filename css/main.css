@@ -27,16 +27,34 @@ h2{
     line-height: 1em;
     color: rgb(0, 0, 0);
 }
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: rgb(0, 0, 0);
+}
 h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+h5{
     font-family: 'Roboto Slab', serif;
     font-size: 25px;
-    line-height: 1.2em;
+    line-height: 1.5em;
     color: rgb(255, 255, 255);
 }
 p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     padding-bottom: 1em;
+}
+p.subtitle{
+    font-style: italic;
 }
 
 /*--- Landing screen ---*/
@@ -73,16 +91,18 @@ hr.hrLanding {
     color: rgb(255, 255, 255)!important; 
 }
 .navbar-nav li a:hover {
-    color: rgb(9, 231, 247)!important;
+    color: rgb(184, 197, 253)!important;
+    text-decoration: underline;
 }
 .navbar-nav li.active a {
-    color: rgb(9, 231, 247)!important;
+    color: rgb(184, 197, 253)!important;
+    text-decoration: underline;
 }
 .dropdown-menu .dropdown-item { 
-    color: rgb(26, 26, 26)!important;
+    color: rgb(25, 25, 25)!important;
 }
 .dropdown-menu .dropdown-item:hover{ 
-    color: rgb(26, 26, 26)!important;
+    color: rgb(25, 25, 25)!important;
 }
 .dropdown-menu a:hover{ 
     background-color: rgb(230, 230, 230)!important;
@@ -91,9 +111,9 @@ hr.hrLanding {
 /*--- Main content ---*/
 
 .container-lg{
-    width: 95%;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    width: 80%;
+    padding-top: 65px;
+    padding-bottom: 55px;
 }
 .col-4{
     padding: 0px 20px;
@@ -105,10 +125,30 @@ hr.hrLanding {
 .img-circle{
     width: 75%;
     border-radius: 50%;
+    margin-bottom: 2em;
+}
+.underline{
+    text-decoration: underline;
+    text-decoration-color:rgb(184, 197, 253);
 }
 
 /*--- Footer ---*/
 
 footer{
+    padding: 1em;
+    font-size: 1rem;
+    background-color: rgb(25, 25, 25)!important;
+    color: rgb(255, 255, 255)!important;
+}
+footer a{
+    text-decoration: underline;
+    color: rgb(255, 255, 255)!important;
+}
+footer a:hover{
+    color:rgb(184, 197, 253)!important;
+}
+.container-md{
+    width: 80%;
+    padding-top: 1em;
     padding-bottom: 1em;
 }
