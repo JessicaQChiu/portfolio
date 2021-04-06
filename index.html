@@ -1,5 +1,5 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html class="no-js" lang="en">
 
 <head>
     <!-- Meta -->
@@ -16,8 +16,11 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
 
     <!-- Page info -->
-    <title>Jessica Chiu's Portfolio</title>
-    <meta name="description" content="The portfolio page of Jessica Chiu made using Bootstrap 4.">
+    <title>Jessica Chiu's CV</title>
+
+    <!-- Script - more at the end of the doc-->
+	<script src="js/modernizr.js"></script>
+    
 </head>
 
 <body>
@@ -37,21 +40,14 @@
                     <div class="collapse navbar-collapse justify-content-md-center" id="mainNav">
                         <ul class="navbar-nav">
                             <li class="nav-item active">
-                                <a class="nav-link text-uppercase" href="index.html">Home<span class="sr-only">(current
+                                <a class="nav-link text-uppercase smoothscroll" href="#landingScreen">Home<span class="sr-only">(current
                                         page)</span></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-uppercase" href="#">About Me</a>
+                                <a class="nav-link text-uppercase smoothscroll" href="#about">About Me</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link text-uppercase dropdown-toggle" href="#" data-toggle="dropdown" href="#">Projects
-                                    and Skills<span class="caret"></span></a>
-                                <div class="dropdown-menu">
-                                    <a class="dropdown-item" href="#">UX/UI Design</a>
-                                    <a class="dropdown-item" href="#">Front-end Development</a>
-                                    <a class="dropdown-item" href="#">Cloud Technologies</a>
-                                    <a class="dropdown-item" href="#">Business Analysis</a>
-                                </div>
+                            <li class="nav-item">
+                                <a class="nav-link text-uppercase smoothscroll" href="#skills">Skills</a>
                             </li>
                         </ul>
                     </div>
@@ -59,28 +55,34 @@
             </nav>
 
             <!-- Landing screen content -->
-            <div class="container-fluid d-flex align-items-center justify-content-center h-100">
-                <div class="row d-flex justify-content-center text-center">
-                    <div class="col-md-12">
+            
+                <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                    <div class="row d-flex justify-content-center text-center">
+                        <div class="col-md-8">
 
-                        <!-- Heading -->
-                        <h1 class="pt-5 mb-3">Hello, I'm Jessica Chiu</h1>
+                            <!-- Heading -->
+                            <h1 class="pt-5 mb-3">Hello, I'm Jessica Chiu</h1>
 
-                        <!-- Divider -->
-                        <hr class="hrLanding">
+                            <!-- Divider -->
+                            <hr class="hrLanding">
 
-                        <!-- Description -->
-                        <h5 class="my-4"> A Wellington based information systems graduate looking for a
-                            chance to grow.</h5>
+                            <!-- Description -->
+                            <h5 class="my-4"> I'm a Wellington based graduate looking for a chance to grow, research, and collaborate.
+                                If you're seeing this, it means I've taken a good peek at your work and I'm keen to work together!
+                                So let's learn more <a class="smoothscroll" href="#about">about me</a> and why I may be a good fit for you.</h5>
+                            <br>
+                            <h6>PAGE A WORK IN PROGRESS</h6>
+                            <!-- Scroll down -->
+                            <button type="button" class="btn">
+                                <a class="smoothscroll" href="#about">
+                                    <span class="fa fa-chevron-circle-down fa-2x"></span>
+                                </a>
+                            </button>
 
-                        <!-- Scroll down -->
-                        <button type="button" class="btn">
-                            <span class="fa fa-chevron-circle-down fa-2x"></span>
-                        </button>
-
+                        </div>
                     </div>
                 </div>
-            </div>
+          
         </div>
     </header>
 
@@ -88,35 +90,41 @@
     <main>
         
         <!-- About Me section-->
-        <div class="container-lg">
-    
-            <!-- About Me header -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="page-header">About Me
-                    </h2>
+
+        <section id="about">
+            <div class="container-lg">
+        
+                <!-- About Me header -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="page-header">About Me
+                        </h2>
+                    </div>
                 </div>
-            </div>
-    
-            <!-- About Me info -->
-            <div class="row">
-                <div class="col-md-4 d-flex align-items-center justify-content-center">
-                    <img class="img-responsive img-circle" src="images/letterJ.jpg" alt="Headshot of Jessica Chiu">
-                </div>
-                <div class="col-md-8">
-                    <p>My first experiences with technology included gaming on the boxy PC and when I learned that I could play a part in the things that gave me so much joy, you can bet that I customised my Neopets profile with a fairy wand cursor. Curiousity played a large part in my interest in tech and changing that single cursor design lead me down a path of developing interfaces for friends to use, programming a robotic arm, and volunteering to help spark that same curiousity in others.
-                        <br><br>
-                        I want to move forward by persisting in developing my abilities, diving into the knowledge of others, and providing my perspective of inclusion. People have always been at the center of my work and I would love the opportunity to be a part of a team that helps create a positive impact on how information is communicated to everyone. Whether this is through user experience design, IT infrastructure, or making code accessible - I want the chance to be a part of this.
-                    </p> 
-                    
-                    <!-- Testing download resume buttons -->
-                    <a class="btn btn-secondary" role="button" href="resume.pdf" download="Jessica Chiu Resume"><i class="fa fa-download" aria-hidden="true"></i> Download Resume</a>
-                    <button type="submit" class="btn btn-secondary" data-loading-text="Downloading resume" onclick="window.open('resume.pdf')"><i class="fa fa-download"></i> Download Resume</button>
+        
+                <!-- About Me info -->
+                <div class="row">
+                    <div class="col-md-4 d-flex align-items-center justify-content-center">
+                        <img class="img-responsive img-circle" src="images/letterJ.jpg" alt="Headshot of Jessica Chiu">
+                    </div>
+                    <div class="col-md-8">
+                        <p>My first experiences with technology included gaming on the boxy PC and when I learned that I could play a part in the things that gave me so much joy, you can bet that I customised my Neopets profile with a fairy wand cursor. Curiousity played a large part in my interest in tech and changing that single cursor design lead me down a path of developing interfaces for friends to use, programming a robotic arm, and volunteering to help spark that same curiousity in others.
+                            <br><br>
+                            I want to move forward by persisting in developing my abilities, diving into the knowledge of others, and providing my perspective of inclusion. People have always been at the center of my work and I would love the opportunity to be a part of a team that helps create a positive impact on how information is communicated to everyone. Whether this is through user experience design, IT infrastructure, or making code accessible - I want the chance to be a part of this.
+                        </p> 
                         
-                    <button type="submit" class="btn btn-secondary" onclick="window.open('resume.pdf')"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Open Resume</button>
+                        <!-- Testing download resume buttons 
+                        
+                        <a class="btn btn-secondary" role="button" href="resume.pdf" download="Jessica Chiu Resume"><i class="fa fa-download" aria-hidden="true"></i> Download Resume</a>
+                        <button type="submit" class="btn btn-secondary" data-loading-text="Downloading resume" onclick="window.open('resume.pdf')"><i class="fa fa-download"></i> Download Resume</button>
+                    
+                        -->
+                            
+                        <button type="submit" class="btn btn-secondary" onclick="window.open('resume.pdf')"><i class="fa fa-file-pdf-o" aria-hidden="true"></i> Open Resume</button>
+                    </div>
                 </div>
             </div>
-        </div>
+         </section>
         <hr>
 
         <!-- Education and Experience section -->
@@ -197,47 +205,49 @@
         <hr>
 
         <!-- Core Skills section -->
-        <div class="container-lg">
+        <section id="skills">
+            <div class="container-lg">
 
-            <!-- Core Skills header -->
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="page-header">Core Skills
-                    </h2>
-                </div>
-            </div>
-
-            <!-- Core Skills info -->
-            <div class="container-fluid text-center">
+                <!-- Core Skills header -->
                 <div class="row">
-                    <div class="col-lg-4">
-                        <i class="fa fa-question-circle-o fa-3x" aria-hidden="true"></i>
-                        <h3>Problem solving</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                            et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                            culpa qui officia deserunt.</p>
+                    <div class="col-lg-12">
+                        <h2 class="page-header">Core Skills
+                        </h2>
                     </div>
-                    <div class="col-lg-4">
-                        <i class="fa fa-comments-o fa-3x" aria-hidden="true"></i>
-                        <h3>Communication</h3>
-                        <p>In my customer support role, I speak to a variety of people daily to help them through technical and
-                            trade issues. Code Club volunteering has lead me to help young students learn about development for
-                            their projects. These experiences have developed my ability in troubleshooting issues and finding
-                            ways to communicate them in a way the user can understand.</p>
-                    </div>
-                    <div class="col-lg-4">
-                        <i class="fa fa-heart-o fa-3x" aria-hidden="true"></i>
-                        <h3>Teamwork</h3>
-                        <p>Throughout university, I have been in group projects which have taught me the value of developing a
-                            strong team dynamic. I believe in cultivating an environment where everyone is comfortable with
-                            sharing their ideas and asking questions because I understand how fear of judgement or failure can
-                            hide the best work. I am experienced with Agile methodology and project management.</p>
+                </div>
+
+                <!-- Core Skills info -->
+                <div class="container-fluid text-center">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <i class="fa fa-question-circle-o fa-3x" aria-hidden="true"></i>
+                            <h3>Problem solving</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                                culpa qui officia deserunt.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <i class="fa fa-comments-o fa-3x" aria-hidden="true"></i>
+                            <h3>Communication</h3>
+                            <p>In my customer support role, I speak to a variety of people daily to help them through technical and
+                                trade issues. Code Club volunteering has lead me to help young students learn about development for
+                                their projects. These experiences have developed my ability in troubleshooting issues and finding
+                                ways to communicate them in a way the user can understand.</p>
+                        </div>
+                        <div class="col-lg-4">
+                            <i class="fa fa-heart-o fa-3x" aria-hidden="true"></i>
+                            <h3>Teamwork</h3>
+                            <p>Throughout university, I have been in group projects which have taught me the value of developing a
+                                strong team dynamic. I believe in cultivating an environment where everyone is comfortable with
+                                sharing their ideas and asking questions because I understand how fear of judgement or failure can
+                                hide the best work. I am experienced with Agile methodology and project management.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <hr>
 
         <!-- Technical Skills  and Projects section -->
@@ -341,13 +351,18 @@
     </div>
         <div class="footer-text text-center py-3">Created by <a href="https://www.linkedin.com/in/jessicaqchiu/">Jessica Chiu</a> // 2020. Built using <a href="https://getbootstrap.com/docs/4.4/getting-started/introduction/">Bootstrap 4</a> and <a href="https://creativecommons.org/share-your-work/public-domain/cc0/">CC0</a> images.
         </div>
+
     </footer>
 
     <!-- JavaScript -->
-    <script src="js/main.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 </body>
 </html>
