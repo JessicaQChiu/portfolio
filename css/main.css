@@ -147,13 +147,9 @@ hr.hrLanding {
     border-radius: 50%;
     margin-bottom: 2em;
 }
-.btn li a:hover{
-    color: rgb(184, 197, 253)!important;
-    text-decoration: underline;
-}
 .underline{
-    text-decoration-color:rgb(184, 197, 253);
     text-decoration: underline;
+    text-decoration-color:rgb(184, 197, 253);
 }
 
 /*--- Social Media ---*/
