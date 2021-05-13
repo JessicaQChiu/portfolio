@@ -29,13 +29,13 @@ header,
 }
 h1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 75px;
+    font-size: 65px;
     font-weight: 700;
     line-height: 1em;
     color: rgb(255, 255, 255);
 }
 h2 {
-    padding: 1em;
+    padding: 1.2em;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 28px;
@@ -141,6 +141,14 @@ hr.hrLanding {
     padding: 0px 20px;
 }
 
+.circle-btn{
+    border-radius: 50%;
+}
+
+.circle-btn:hover {
+    background-color: rgb(184, 197, 253)!important;
+  }
+
 .img-responsive {
     width: 100%;
     height: auto;
@@ -163,7 +171,7 @@ a.text-link {
 /*--- Social Media ---*/
 
 .socialmedia li {
-    padding: 10px 20px;
+    padding: 10px 10px;
 }
 
 .socialmedia li a {
